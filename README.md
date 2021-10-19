@@ -8,5 +8,5 @@ About the Site:
 - Used React-Bootstrap
 - Used Private & Dynamic Routing
 - Firebase Auhenctication
-- Resposive Application
+- Responsive Application
 
