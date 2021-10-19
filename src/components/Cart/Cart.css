@@ -1,0 +1,12 @@
+.cart img {
+    width: 250px !important;
+}
+.cart {
+    margin-top: 50px;
+}
+@media (max-width: 767.98px) { 
+    .summary {
+        text-align: center !important;
+    
+    }
+ }

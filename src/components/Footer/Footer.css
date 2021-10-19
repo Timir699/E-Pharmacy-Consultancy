@@ -1,0 +1,13 @@
+.footer {
+    
+    padding: 20px 0px 20px 0px;
+    background-color: black;
+    color: #C7C8C9;
+    display: flex;
+    width: 100%;
+}
+.footer a {
+    text-decoration: none;
+    color: #C7C8C9;
+    font-weight: bold;
+}

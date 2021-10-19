@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Consultancy",
+        "img": "https://drprem.com/globalhealthcare/wp-content/uploads/sites/17/2014/11/consulting-doctor.jpg",
+        "id": 10,
+        "price": 12,
+        "description": "What is medical consultancy? Image result for Doctor ConsultancyA consultant physician is a senior doctor who practises in one of the medical specialties. Once specialty training has been completed, doctors are able to apply for consultant posts. ... Consultants accept ultimate responsibility for the care of patients referred to them, so it is a position of considerable responsibility."
+    },
+    {
+        "name": "Physiotherapy",
+        "img": "https://www.coreconcepts.com.sg/wp-content/uploads/Can-Physiotherapy-Help-Improve-Your-Sleep-1200x675.jpg",
+        "id": 11,
+        "price": 9,
+        "description": "What does a physiotherapy do? Physiotherapy helps to restore movement and function when someone is affected by injury, illness or disability. It can also help to reduce your risk of injury or illness in the future. It takes a holistic approach that involves the patient directly in their own care."
+    },
+    {
+        "name": "Nursing",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ugsHoWdLMSO8zNy99suYEI4623X2jy_vIQ&usqp=CAU",
+        "id": 12,
+        "price": 110,
+        "description": "What does a nurse do? Nurses have many duties, including caring for patients, communicating with doctors, administering medicine and checking vital signs. Making up for the biggest healthcare job in the U.S., nurses play a vital role in medical facilities and enjoy a large number of job opportunities."
+    },
+    {
+        "name": "Doctors Opinion",
+        "img": "https://static01.nyt.com/images/2019/05/16/opinion/14Linder/14Linder-superJumbo.jpg",
+        "id": 13,
+        "price": 0,
+        "description": "The Doctor's Opinion, is about more than one man's views on recovery. It is about the lessons we have all learned far too many times for our own good. If you're ready to stop learning these painful lessons over and over again, stop now and take them to heart."
+    },
+    {
+        "name": "Emergency talk to Our Doctor's(Special)",
+        "img": "https://www.westinjurylawyers.com/wp-content/uploads/2017/06/Doctor-giving-femal-patient-second-opinion-6.9.17-4.jpg",
+        "id": 14,
+        "price": 260,
+        "description": "Emergency Medical Professionals are the first point of medical contact with patients involved in accidents, child labour, natural disasters and much more. The students who pursue this program provide the highest form of patient health, safety and medical care beyond the hospital."
+    },
+    {
+        "name": "Ambulance",
+        "img": "https://www.odtap.com/wp-content/uploads/2019/03/Ambulance-dispatch-software.jpg",
+        "id": 15,
+        "price": 11,
+        "description": "The word Ambulance is written in reverse because the driver in front of the ambulance can see the words spelt correctly in his rear view mirror. Quickly, this driver blocking the ambulance passageway can quickly identify that the vehicle behind him is an ambulance and react by giving way."
+    }
+]

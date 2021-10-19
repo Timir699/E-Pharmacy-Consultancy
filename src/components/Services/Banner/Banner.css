@@ -1,0 +1,12 @@
+.banner {
+    background-image: url(../../../images/pharmacy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: 55px;
+}
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 150px 0px 200px 0px;
+}

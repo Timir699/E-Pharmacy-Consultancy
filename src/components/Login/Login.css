@@ -1,0 +1,20 @@
+.form-control {
+    width: 80% !important;
+    margin: auto;
+}
+.form-check-input:checked {
+    background-color: #ffc107;
+    border-color: #ffffff;
+}
+.form-check .form-check-input {
+    float: none;
+    margin-right: .5em;
+}
+.form-check-input:focus {
+    box-shadow: none;
+}
+.login {
+    margin-top: 100px;
+    min-height: 100%;
+    position: relative;
+}

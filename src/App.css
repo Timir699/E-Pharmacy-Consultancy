@@ -1,0 +1,13 @@
+body {
+    overflow-x: hidden;
+}
+.main {
+    margin-top: 30px;
+}
+.navbar-nav {
+    flex-direction: row !important;
+}
+.navbar-nav .nav-link:not(first-child) {
+    /* padding-left: 20px !important; */
+    padding-right: 20px !important;
+}
