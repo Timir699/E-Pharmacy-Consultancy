@@ -1,5 +1,6 @@
 .shipping {
     margin-top: 90px;
+    min-height: 83vh;
 }
 @media (max-width: 767.98px) { 
     .shipping {

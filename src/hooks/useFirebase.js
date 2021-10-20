@@ -11,6 +11,8 @@ const useFirebase = () => {
     const [success, setSuccess] = useState('')
     const [isLoading, setIsLoading] = useState(true)
 
+    localStorage.setItem('loading', isLoading)
+
     const [registerLogin, setRegisterLogin] = useState({
         displayName: '',
         email: '',
@@ -32,7 +34,7 @@ const useFirebase = () => {
     const signInWithGoogle = () => {
         setIsLoading(true)
         return signInWithPopup(auth, googleProvider)
-
+            .finally(() => setIsLoading(false))
     }
 
     // Github Sign In Functionality
@@ -148,8 +150,8 @@ const useFirebase = () => {
 
     // Handling Side Effects
     useEffect(() => {
-        setIsLoading(false)
-        onAuthStateChanged(auth, user => {
+        // setIsLoading(false)
+        const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
                 setUser(user)
             } else {
@@ -157,6 +159,7 @@ const useFirebase = () => {
             }
             setIsLoading(false)
         })
+        return () => unsubscribed
     }, [auth])
 
 

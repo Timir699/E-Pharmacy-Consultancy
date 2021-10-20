@@ -47,7 +47,6 @@ const Login = () => {
     const signInWithGoogleHandler = () => {
         signInWithGoogle()
             .then(result => {
-                setUser(result.user);
                 history.push(location.state?.from || '/')
                 setSuccess("Successfully Registered")
                 setError('')
@@ -55,7 +54,7 @@ const Login = () => {
             .catch((error) => {
                 setSuccess('')
                 setError(error.message)
-            }).finally(() => setIsLoading(false))
+            })
     }
 
     return (

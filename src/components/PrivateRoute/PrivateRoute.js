@@ -6,6 +6,7 @@ import useAuth from '../../hooks/useAuth';
 const PrivateRoute = ({ children, ...rest }) => {
     // hooks
     const { user, isLoading } = useAuth()
+    localStorage.getItem('local')
     if (isLoading) {
         return <Spinner animation="border" variant="warning" />
     }

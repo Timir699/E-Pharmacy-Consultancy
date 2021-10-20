@@ -3,6 +3,7 @@
 }
 .cart {
     margin-top: 50px;
+    min-height: 86vh;
 }
 @media (max-width: 767.98px) { 
     .summary {
