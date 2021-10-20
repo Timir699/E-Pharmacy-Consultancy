@@ -15,7 +15,7 @@ import Footer from './Footer/Footer';
 import ServiceDetail from './ServiceDetail/ServiceDetail';
 
 const Components = () => {
-    
+
     return (
         <div>
             <BrowserRouter>
@@ -24,15 +24,15 @@ const Components = () => {
                     <Route exact path="/" >
                         <Services />
                     </Route>
-                    <Route path="/Service/:ServiceId">
+                    <PrivateRoute path="/Service/:ServiceId">
                         <ServiceDetail />
-                    </Route>
+                    </PrivateRoute>
                     <Route path="/Products">
                         <Products />
                     </Route>
-                    <Route path="/Product/:ProductId">
+                    <PrivateRoute path="/Product/:ProductId">
                         <ProductDetail />
-                    </Route>
+                    </PrivateRoute>
                     <PrivateRoute path="/Cart">
                         <Cart />
                     </PrivateRoute>
